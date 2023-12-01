@@ -48,8 +48,6 @@ int main(){
     else{
         return 99;
     }
-    // printf("%s\n", rooms[0].name);
-    // printf("%s\n", rooms[1].name);
 
     gameLoop();
     free(rooms);
@@ -92,7 +90,6 @@ bool loadData(){
             r.east = -1;
             r.west = -1;
             r.id = extractInt(line);
-            // printf("%s\n", line);
         }
 
         if (strstr(line, "\"name\"") && inRoomsStruct){
@@ -199,7 +196,6 @@ void gameLoop(){
             break;
         }
     }
-    // printf("%s", rooms[1].name);
     while (true){
         showRoom(currentRoom);
         printf("> ");
@@ -216,32 +212,30 @@ void gameLoop(){
         }
 
         if (strcmp(input, "north") == 0 || strcmp(input, "n") == 0){
-            printf("hello");
             if (rooms[currentRoom].north != -1){
                 currentRoom = rooms[currentRoom].north;
-                printf("Moving north? %d\n", rooms[currentRoom].north);
+                // printf("Moving north? %d\n", rooms[currentRoom].north);
             }
         }
 
          if (strcmp(input, "west") == 0 || strcmp(input, "w") == 0){
-            //  printf("%d\n", rooms[currentRoom].west);
             if (rooms[currentRoom].west != -1){
                 currentRoom = rooms[currentRoom].west;
-                printf("Moving west? %d\n", rooms[currentRoom].west);
+                // printf("Moving west? %d\n", rooms[currentRoom].west);
             }
         }
 
          if (strcmp(input, "east") == 0 || strcmp(input, "e") == 0){
             if (rooms[currentRoom].east != -1){
                 currentRoom = rooms[currentRoom].east;
-                printf("Moving east? %d\n", rooms[currentRoom].east);
+                // printf("Moving east? %d\n", rooms[currentRoom].east);
             }
         }
 
          if (strcmp(input, "south") == 0 || strcmp(input, "s") == 0){
             if (rooms[currentRoom].south != -1){
                 currentRoom = rooms[currentRoom].south;
-                printf("Moving south? %d\n", rooms[currentRoom].south);
+                // printf("Moving south? %d\n", rooms[currentRoom].south);
             }
         }
 
@@ -293,7 +287,7 @@ void gameLoop(){
         if (strcmp(input, "inventory") == 0 || strcmp(input, "i") == 0){
             showInventory(inventory);
         }
-        // sleep(3);
+        sleep(2);
     }
 }
 
