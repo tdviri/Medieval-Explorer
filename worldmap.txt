@@ -1,0 +1,35 @@
+          North            Temple Altar
+            |              (Healer, Pit)
+            |                    |
+     West---+---East             |
+            |                 Temple of
+            |                   Mota
+          South                  |
+                                 |
+                                 |
+                  Cleric         |
+       Northern   Guild----Temple Square---Grunting---Bar    Northern
+       Midgaard           (Rubber Duck)    Boar Inn          Midgaard
+     	   |     Magic           |                              |
+           |     Shop   Bakery   |    Grocer    Weaponsmith     |
+           |       |      |      |       |           |          |
+      <---West---Main-Street---Market----Main-Street-+--------East--->Cross
+          Gate     |      |    Square    |           |        Gate    Roads
+           |     Mage  Armoury   |     Jeweler    Warrior       |
+           |     Guild           |                 Guild     Wall Road
+          Wall                   |                              |
+          Road  Leather  Map     |    Grebe's  Pet   Apothecary |
+           |     Shop    Shop    |    Tavern   Shop  (Potions)  |
+           |      |       |    Common   |       |       |       |
+          Wall---Poor-Alley----Square---Dark-Alley------+----Wall Road
+          Road    |       |      |      |       |       |       |
+           |   Temple   Grubby   |   Thieves  Levee   Warehouse |
+           |  Of Stupid  Inn     |    Guild   (Boats) (Sailor)  |
+           |                    Dump            |               |
+          Wall  Mob              |              |             Wall
+          Road--Factory          |              |             Road
+           |                   South         Midgaard           |
+         Bridge                Bridge         River---------> Bridge <-->
+           |                     |              |               |
+        Southern              Southern        Kate's          Southern
+        Midgaard              Midgaard        Diner           Midgaard

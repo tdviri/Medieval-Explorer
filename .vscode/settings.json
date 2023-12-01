@@ -1,0 +1,17 @@
+{
+  "workbench.colorTheme": "Visual Studio Dark",
+  "terminal.integrated.profiles.linux": {
+      "mybash": {
+        "path": "bash",
+        "args": ["--rcfile", "/usercode/.vscode/mybashrc.sh"],
+        "open": true,
+        "focus": false
+      }
+    },
+    "terminal.integrated.letterSpacing": 0,
+    "terminal.integrated.defaultProfile.linux": "mybash",
+    "code-runner.executorMap":{
+      "c": "cd /usercode && clear && printf 'Compiling with:\\033[48;5;33m\\033[1;38;5;226m gcc -Wall -Werror -g main.c -o main.bin  \\033[0m \\n' && gcc -Wall -Werror -g main.c -o main.bin && printf '\\033[38;5;2mSucessfully Compiled to ./main.bin attempting to run it. \\033[0m \\n' && /usercode/main.bin",
+      "cpp": "cd /usercode && clear && printf 'Compiling with:\\033[48;5;33m\\033[1;38;5;226m g++ -Wall -Werror -g main.cpp -o main.bin  \\033[0m \\n' && g++ -Wall -Werror -g main.cpp -o main.bin && printf '\\033[38;5;2mSucessfully Compiled to ./main.bin attempting to run it. \\033[0m \\n' && /usercode/main.bin"
+     }
+}
